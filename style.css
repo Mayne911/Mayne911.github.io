@@ -1,0 +1,146 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style du titre principal */
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style de la section principale */
+section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des liens */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.profile_section{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+
+}
+
+.profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.skills_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.skills-title {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-image {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.projects_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.projects{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.projects-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    height: 200px;
+    width: 200px;
+}
+
+.projects-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.contact_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
