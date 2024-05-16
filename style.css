@@ -32,9 +32,11 @@ h2 {
 
 h3 {
     font-size: 24px;
-    margin-bottom: 20px;
 }
 
+p{
+    text-align: justify;
+}
 /* Style de la section principale */
 section {
     padding: 40px;
@@ -60,9 +62,21 @@ footer {
     text-align: center;
 }
 
+header{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .profile_section{
     display: flex;
     margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
 }
 
 .profile{
@@ -71,17 +85,23 @@ footer {
 }
 
 .profile_picture {
+    border-radius: 50%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-right: 60px;
-}
+    }
+
+.profile-text {
+    width: 70%;
+    }
 
 .skills_section{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    width: 50%;
 
 }
 
@@ -105,6 +125,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .projects-list {
@@ -116,7 +137,9 @@ footer {
 .projects{
     display: flex;
     margin-bottom: 20px;
-
+    border: 1px solid #cea964;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .projects-title {
@@ -124,7 +147,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
     margin-right: 60px;
     height: 200px;
     width: 200px;
@@ -134,7 +156,10 @@ footer {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin-right: 10px;
+}
+
+.projects-description {
+    width: 70%;
 }
 
 .contact_section{
@@ -142,5 +167,6 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    width: 50%;
 }
 
